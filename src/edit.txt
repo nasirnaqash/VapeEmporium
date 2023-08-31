@@ -8,20 +8,18 @@ import VapeSub from './pages/VapeSub';
 import NoVapeSub from './pages/NoVapeSub';
 import Cart from './pages/Cart';
 import Footer from './components/Footer';
-import Vapes from './pages/Vapes';
 const App = () => {
   return (
     <Router>
       <div>
         <Navbar />
-        
+        <Header />
         <Routes>
-        <Route path="/vapes" element={<Vapes/>} />
-          <Route path="/" element={<Header/>} />
-          <Route path="/smoke-choice" element={<SmokeChoice/>}/>
-          <Route path="/vape" element={<VapeSub/>} />
-          <Route path="/no-vape" element={<NoVapeSub/>}/>
-          <Route path="/cart" element={<Cart/>} />
+          {/* <Route path="/" component={<Banner/>} /> */}
+          <Route path="/smoke-choice" component={SmokeChoice} />
+          <Route path="/vape" component={<VapeSub/>} />
+          <Route path="/no-vape" component={<NoVapeSub/>}/>
+          <Route path="/cart" component={<Cart/>} />
         </Routes>
         <Footer />
       </div>

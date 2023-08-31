@@ -1,0 +1,13 @@
+
+.get-started{
+    background-color: black;
+}
+.get-started:hover{
+  background-color: gray;
+  color: black;
+}
+.header{
+  background: url('./satyam-vk-FzpI5DF9Ghk-unsplash.jpg');
+  background-repeat: inherit;
+  background-position: center;
+}

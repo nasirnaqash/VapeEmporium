@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.503990cb.css",
+    "main.js": "/static/js/main.f7a97b50.js",
+    "static/js/787.78809ba6.chunk.js": "/static/js/787.78809ba6.chunk.js",
+    "static/media/satyam-vk-FzpI5DF9Ghk-unsplash.jpg": "/static/media/satyam-vk-FzpI5DF9Ghk-unsplash.c0b62c5659d542f71897.jpg",
+    "index.html": "/index.html",
+    "main.503990cb.css.map": "/static/css/main.503990cb.css.map",
+    "main.f7a97b50.js.map": "/static/js/main.f7a97b50.js.map",
+    "787.78809ba6.chunk.js.map": "/static/js/787.78809ba6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.503990cb.css",
+    "static/js/main.f7a97b50.js"
+  ]
+}
